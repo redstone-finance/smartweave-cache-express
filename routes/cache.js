@@ -18,7 +18,7 @@ router.get('/last/:type/:key', async function (req, res, next) {
 
   const result = await caches[type].getLast(key);
 
-  res.json(result);
+  res.send(result);
 });
 
 // getLessOrEqual
