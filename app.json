@@ -1,0 +1,7 @@
+{
+  "name": "Node.js express SmartWeave cache",
+  "description": "Node.js express app with SmartWeave cache",
+  "repository": "https://github.com/redstone-finance/smartweave-cache-express",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}

@@ -5,11 +5,11 @@ const state = {
   counter: 0,
 };
 
+// Just a quick test to check if mem cache works correctly
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   // res.send('respond with a resource');
   return res.json({
-    'hello': 'world',
     counter: state.counter++,
   });
 });
