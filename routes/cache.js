@@ -32,7 +32,7 @@ router.get('/less-or-equal/:type/:key/:blockHeight', async function (req, res, n
   const blockHeight = parseInt(req.params.blockHeight);
 
   const result = await caches[type].getLessOrEqual(key, blockHeight);
-  console.log(result);
+  console.log({ 'less-or-equal-res': result });
 
   res.send(result);
 });
